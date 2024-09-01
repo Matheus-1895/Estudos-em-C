@@ -131,5 +131,6 @@ int main() {
     printf("Fila em ordem inversa:\n ");
     mostraInverso(&fila);
 
+    
     return 0;
 }
