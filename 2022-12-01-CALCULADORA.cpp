@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <math.h>
 
-//Primeira parte----------Funcoes que serao utilizadas no codigo
 
 int soma(int n1, int n2) {
       int res;
