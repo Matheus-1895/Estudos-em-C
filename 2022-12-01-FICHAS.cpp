@@ -7,7 +7,6 @@ int ficha_5, ficha_10, ficha_20, ficha_50, ficha_100;
 double dinheiro;
 int VAL_int;
 
-
  int ValorFicha5(int n5);
  int ValorFicha10(int n10);
  int ValorFicha20(int n20);
