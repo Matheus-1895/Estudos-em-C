@@ -2,7 +2,6 @@
 #include<math.h>
 #include<locale.h>
 
-
 int main(){
 	
 //Vari�veis 

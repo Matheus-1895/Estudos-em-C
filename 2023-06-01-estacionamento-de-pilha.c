@@ -69,7 +69,7 @@ void desempilhar(Pilha* pilha, const char* placa) {
         }
         pilha->topo--;
         printf("Carro %s saiu depois de %d movimentos.\n", placa, movimentos);
-        printf("Manobras feitas para saída: %d\n", pilha->manobras[i]);
+        printf("Manobras feitas para saÃ­da: %d\n", pilha->manobras[i]);
     }
 }
 
@@ -91,7 +91,7 @@ void processarEntrada(Pilha* pilha, const char* entrada) {
         if (pilha->topo < TAMANHO_GARAGEM) {
             empilhar(pilha, placa);
         } else {
-            printf("Não há vaga disponível para o carro %s.\n", placa);
+            printf("NÃ£o hÃ¡ vaga disponÃ­vel para o carro %s.\n", placa);
         }
     } else if (acao == 'S') {
         desempilhar(pilha, placa);
